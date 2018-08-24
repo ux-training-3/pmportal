@@ -2,7 +2,7 @@
   "name": "pmportal",
   "version": "1.0.0",
   "description": "Nuxt.js project",
-  "author": "keisuke shingaki <kei4eva4@gmail.com>",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "nuxt",
