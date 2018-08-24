@@ -3,15 +3,15 @@ import Vuex from 'vuex'
 const appStore = () => {
     return new Vuex.Store({
         state: {
-            breed_list: {},
-            dog_list: [],
+            instructor_list: {},
+            content_list: [],
         },
         mutations: {
-            breed_list_update(state, payload) {
-                state.breed_list = {...payload}
+            instructor_list_update(state, payload) {
+                state.instructor_list = {...payload}
             },
-            dog_list_update(state, payload) {
-                state.dog_list = [...payload]
+            content_list_update(state, payload) {
+                state.content_list = [...payload]
             },
         }
     })
