@@ -18,6 +18,10 @@ $ npm run dev
 $ npm run build
 $ npm start
 
+# build for production and launch server for firebase
+$ npm run build
+$ firebase deploy
+
 # generate static project
 $ npm run generate
 ```
